@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "cms",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -14,10 +14,11 @@
     "@strapi/strapi": "4.5.6",
     "@strapi/plugin-users-permissions": "4.5.6",
     "@strapi/plugin-i18n": "4.5.6",
-    "better-sqlite3": "7.4.6"
+    "better-sqlite3": "7.4.6",
+    "pg": "8.8.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Jean & Juli"
   },
   "strapi": {
     "uuid": "added011-07d6-4b3d-9add-1208419f284c"
