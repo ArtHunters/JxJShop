@@ -1,11 +1,11 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     pool: {
       min: 1,
-      max: 1,
+      max: 3,
     },
     connection: {
       host: env('DATABASE_HOST', '127.0.0.1'),
